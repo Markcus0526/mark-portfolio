@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Contact, Expertise, Footer, Main, Navigation, Project, Timeline,} from "./components";
+import {Contact, Expertise, Footer, Main, Navigation, Project, ExperienceTimeline,} from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
 
@@ -24,7 +24,7 @@ function App() {
         <FadeIn transitionDuration={700}>
             <Main/>
             <Expertise/>
-            <Timeline/>
+            <ExperienceTimeline/>
             <Project/>
             <Contact/>
         </FadeIn>
