@@ -6,6 +6,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read # New requirement for some v4 deployments
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -22,10 +23,10 @@ jobs:
         env:
           CI: false  # Prevents warnings from being treated as errors
         run: npm run build
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3 # Use v3 or later
         with:
-          path: './build' # Use './build' if using Create React App
+          path: './build' # Ensure this points to your production build folder
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
