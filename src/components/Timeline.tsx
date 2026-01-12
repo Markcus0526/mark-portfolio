@@ -26,73 +26,73 @@ function ExperienceTimeline() {
             <Timeline position="alternate">
                 {/* Item 1 */}
                 <TimelineItem>
-                    <TimelineOppositeContent sx={{ m: 'auto 0' }} variant="h5" color="text.secondary">
+                    <TimelineOppositeContent sx={{ m: 'auto 0' }} variant="h5" color="secondary">
                         2025 - present
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ px: 0.2 }} />
                         <TimelineDot color="primary">
                             <AutoModeIcon />
                         </TimelineDot>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ px: 0.2 }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '50px', px: 2 }}>
-                        <Typography variant="h5" component="span">Full Stack Engineer</Typography>
-                        <Typography variant="h6">Full-stack Backend and Frontend Development, GenAI/LLM</Typography>
+                        <Typography variant="h5" component="span" color="primary">Full Stack Engineer</Typography>
+                        <Typography variant="h6" color="warning">Full-stack Backend and Frontend Development, GenAI/LLM</Typography>
                     </TimelineContent>
                 </TimelineItem>
 
                 {/* Item 2 */}
                 <TimelineItem>
-                    <TimelineOppositeContent sx={{ m: 'auto 0' }} variant="h5" color="text.secondary">
+                    <TimelineOppositeContent sx={{ m: 'auto 0' }} variant="h5" color="primary">
                         2020 - 2024
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                        <TimelineConnector />
-                        <TimelineDot color="secondary" variant="outlined">
+                        <TimelineConnector sx={{ px: 0.2 }} />
+                        <TimelineDot color="secondary">
                             <DevicesIcon />
                         </TimelineDot>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ px: 0.2 }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '50px', px: 2 }}>
-                        <Typography variant="h5" component="span">Full Stack Developer</Typography>
-                        <Typography variant="h6">Full-stack Development, API Development, User Experience</Typography>
+                        <Typography variant="h5" component="span" color="primary">Full Stack Developer</Typography>
+                        <Typography variant="h6" color="warning">Full-stack Development, API Development, User Experience</Typography>
                     </TimelineContent>
                 </TimelineItem>
 
                 {/* Item 3 */}
                 <TimelineItem>
-                    <TimelineOppositeContent sx={{ m: 'auto 0' }} variant="h5" color="text.secondary">
+                    <TimelineOppositeContent sx={{ m: 'auto 0' }} variant="h5" color="secondary">
                         2016 - 2019
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                        <TimelineConnector />
-                        <TimelineDot color="secondary" variant="outlined">
+                        <TimelineConnector sx={{ px: 0.2 }} />
+                        <TimelineDot color="primary">
                             <LaptopMacIcon />
                         </TimelineDot>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ px: 0.2 }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '50px', px: 2 }}>
-                        <Typography variant="h5" component="span">Mobile and Web Developer</Typography>
-                        <Typography variant="h6">Frontend Development, Backend Development, Mobile Development, User Experience, Team Leading</Typography>
+                        <Typography variant="h5" component="span" color="primary">Mobile and Web Developer</Typography>
+                        <Typography variant="h6" color="warning">Frontend Development, Backend Development, Mobile Development, User Experience, Team Leading</Typography>
                     </TimelineContent>
                 </TimelineItem>
 
                 {/* Item 4 */}
                 <TimelineItem>
-                    <TimelineOppositeContent sx={{ m: 'auto 0' }} variant="h5" color="text.secondary">
+                    <TimelineOppositeContent sx={{ m: 'auto 0' }} variant="h5" color="primary">
                         2011 - 2015
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                        <TimelineConnector />
-                        <TimelineDot color="secondary" variant="outlined">
+                        <TimelineConnector sx={{ px: 0.2 }} />
+                        <TimelineDot color="secondary">
                             <ImportantDevicesIcon />
                         </TimelineDot>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ px: 0.2 }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '50px', px: 2 }}>
-                        <Typography variant="h5" component="span">Staff Engineer Intern</Typography>
-                        <Typography variant="h6">Frontend Development, Backend Development, User Experience</Typography>
+                        <Typography variant="h5" component="span" color="primary">Staff Engineer Intern</Typography>
+                        <Typography variant="h6" color="warning">Frontend Development, Backend Development, User Experience</Typography>
                     </TimelineContent>
                 </TimelineItem>
             </Timeline>
