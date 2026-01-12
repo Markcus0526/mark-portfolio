@@ -17,11 +17,11 @@ jobs:
         with:
           node-version: '20'
       - name: Install & Build
+        env:
+          CI: false  # Prevents warnings from being treated as errors
         run: |
           npm install
           npm run build
-          env:
-            CI: false
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
