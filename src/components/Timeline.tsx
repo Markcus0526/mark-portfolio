@@ -1,18 +1,15 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBriefcase} from '@fortawesome/free-solid-svg-icons';
 // import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import {
     Timeline,
-    TimelineItem,
-    TimelineSeparator,
     TimelineConnector,
     TimelineContent,
     TimelineDot,
-    TimelineOppositeContent
+    TimelineItem,
+    TimelineOppositeContent,
+    TimelineSeparator
 } from '@mui/lab';
-import WorkIcon from '@mui/icons-material/Work';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import DevicesIcon from '@mui/icons-material/Devices';
 import ImportantDevicesIcon from '@mui/icons-material/ImportantDevices';

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Contact, Expertise, Footer, Main, Navigation, Project, ExperienceTimeline,} from "./components";
+import {Contact, ExperienceTimeline, Expertise, Footer, Main, Navigation, Project,} from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
 
