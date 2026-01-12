@@ -1,11 +1,6 @@
-import React, {
-    JSXElementConstructor,
-    PropsWithChildren,
-    useEffect,
-    useState,
-  } from "react";
-  
-  interface Props {
+import React, {JSXElementConstructor, PropsWithChildren, useEffect, useState,} from "react";
+
+interface Props {
     delay?: number;
     transitionDuration?: number;
     wrapperTag?: JSXElementConstructor<any>;

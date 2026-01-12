@@ -20,6 +20,8 @@ jobs:
         run: |
           npm install
           npm run build
+          env:
+            CI: false
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
