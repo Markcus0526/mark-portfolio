@@ -18,8 +18,18 @@
     color: white;
   }
 
+  .MuiOutlinedInput-root {
+    background-color: white !important; /* This makes the inside white */
+
+    // Ensure the text inside is visible (Black text on white background)
+    input, textarea {
+      color: #000000 !important;
+      -webkit-text-fill-color: #000000 !important;
+    }
+  }
+
   fieldset {
-    background-color: white;
+    background-color: transparent !important;
   }
 }
 

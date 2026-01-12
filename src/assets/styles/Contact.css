@@ -1,0 +1,54 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+}
+.contact-form button {
+  float: right;
+  background-color: white;
+  color: #050f0b;
+}
+.contact-form button:hover {
+  background-color: #5000ca;
+  color: white;
+}
+.contact-form .MuiOutlinedInput-root {
+  background-color: white !important; /* This makes the inside white */
+}
+.contact-form .MuiOutlinedInput-root input, .contact-form .MuiOutlinedInput-root textarea {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+}
+.contact-form fieldset {
+  background-color: transparent !important;
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: "DomaineDispNar-Medium", sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+/*# sourceMappingURL=Contact.css.map */

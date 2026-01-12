@@ -18,11 +18,11 @@ function Main() {
 
           <p>Discover your perfect home in our modern Development: Live, Grow, and Thrive.</p>
           <div className="mobile_social_icons">
-            <a href="https://github.com/markcus" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://github.com/Markcus0526" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/markcus/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <div className="social_icons">
-              <a href="https://github.com/markcus" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+              <a href="https://github.com/Markcus0526" target="_blank" rel="noreferrer"><GitHubIcon/></a>
               <a href="https://www.linkedin.com/in/markcus/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
         </div>

@@ -6,34 +6,33 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
+    "Rust",
     "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
+    "JavaScript/TypeScript",
+    "GoLang",
+    "PHP",
+    "Python-Django",
+    "LAMP",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "NoSQL"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Java",
+    "Kotlin",
+    "Swift",
+    "Objective-C",
+    "Dart",
+    "Android Native",
+    "iOS Native",
+    "Cost-Effective / One Codebase",
+    "Mobile Gaming",
 ];
 
 const labelsThird = [
+    "Python",
+
     "OpenAI",
-    "Groq",
     "LangChain",
     "Qdrant",
     "Hugging Face",
@@ -57,7 +56,8 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>My expertise spans front-end technologies such as HTML, CSS, JavaScript, and frameworks like React or Angular, as well as back-end development with Node.js, Express, and database management using MongoDB or SQL.
+                        I am adept at designing seamless user interfaces, building robust server-side logic, and ensuring optimal performance, security, and scalability. My goal is to deliver comprehensive solutions that meet client needs, enhance user experience, and support business objectives through innovative and efficient web development practices.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -69,7 +69,10 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDartLang} size="3x"/>
                     <h3>Android & iOS Development</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>As a passionate mobile developer, I specialize in creating seamless, user-centric applications for both iOS and Android platforms.
+                        My expertise includes designing intuitive interfaces, optimizing performance, and integrating cutting-edge features to deliver engaging digital experiences.
+                        With a solid understanding of mobile development frameworks like Flutter, React Native, and native SDKs,
+                        I am committed to building innovative solutions that meet users' needs and drive business growth.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -81,7 +84,9 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>AI Engineering</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <p>My expertise includes designing and implementing algorithms for data analysis, natural language processing, computer vision, and predictive modeling using frameworks like TensorFlow, PyTorch, and scikit-learn.
+                        I am skilled in data preprocessing, model training, evaluation, and deployment, ensuring solutions are accurate, efficient, and scalable.
+                        Committed to advancing AI technology, I focus on creating innovative solutions that enhance automation, decision-making, and user experience across diverse industries.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
