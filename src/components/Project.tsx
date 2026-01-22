@@ -15,6 +15,9 @@ import Investment from '../assets/images/Investment.png';
 import Busihall from '../assets/images/Busihall.png';
 import Showhand from '../assets/images/Showhand.png';
 import Typinghelper from '../assets/images/Typinghelper.png';
+import Taurichat from '../assets/images/Taurichat.png';
+import Blogleptos from '../assets/images/Blogleptos.png';
+import Dxaichat from '../assets/images/Dxaichat.png';
 import '../assets/styles/Project.scss';
 import Chip from "@mui/material/Chip";
 
@@ -23,6 +26,47 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+
+            <div className="project">
+                <a href="" target="_blank" rel="noreferrer"><img src={Taurichat} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Markcus0526/MarkTech.TauriChat.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>
+                <p>Simple Chat app created with Tauri 2.0</p>
+                <div className="flex-chips">
+                    <span className="chip-title">Tech stack:</span>
+                    <Chip className='chip' label="Rust" />
+                    <Chip className='chip' label="Tauri 2.0" />
+                    <Chip className='chip' label="TailWind" />
+                </div>
+            </div>
+
+            <div className="project">
+                <a href="" target="_blank" rel="noreferrer"><img src={Blogleptos} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Markcus0526/MarkTech.BlogLeptos.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>
+                <p>This repository hosts a Leptos demo application developed as part of my exploration and experimentation with the Rust/Leptos framework.</p>
+                <div className="flex-chips">
+                    <span className="chip-title">Tech stack:</span>
+                    <Chip className='chip' label="Rust" />
+                    <Chip className='chip' label="Leptos 0.8" />
+                    <Chip className='chip' label="TailWind" />
+                </div>
+            </div>
+
+            <div className="project">
+                <a href="" target="_blank" rel="noreferrer"><img src={Dxaichat} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Markcus0526/MarkTech.DxAiChat.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>
+                <p>Student is a full-stack Rust web app that uses a "learning by teaching" model.
+                    Users teach topics to an AI student, Bodhi, via text, PDF, or voice chat.
+                    This monolithic application is built with Axum and Dioxus from a single codebase.
+                    The name Student is derived from the Tamil word for "teacher" and the Hindi word for "easy."</p>
+                <div className="flex-chips">
+                    <span className="chip-title">Tech stack:</span>
+                    <Chip className='chip' label="Rust" />
+                    <Chip className='chip' label="Dioxus" />
+                    <Chip className='chip' label="Axum" />
+                    <Chip className='chip' label="TailWind" />
+                </div>
+            </div>
+
             <div className="project">
                 <a href="http://www.3qcc.cn/" target="_blank" rel="noreferrer"><img src={Hospital} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/Markcus0526/IFETech.Hospital.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>

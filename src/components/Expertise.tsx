@@ -31,7 +31,6 @@ const labelsSecond = [
 
 const labelsThird = [
     "Python",
-
     "OpenAI",
     "LangChain",
     "Qdrant",
