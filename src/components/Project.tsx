@@ -29,31 +29,31 @@ function Project() {
 
             <div className="project">
                 <a href="" target="_blank" rel="noreferrer"><img src={Taurichat} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/Markcus0526/MarkTech.TauriChat.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>
+                <a href="https://github.com/Markcus0526/MarkTech.TauriChat.git" target="_blank" rel="noreferrer"><h2>Simple Chat App</h2></a>
                 <p>Simple Chat app created with Tauri 2.0</p>
                 <div className="flex-chips">
                     <span className="chip-title">Tech stack:</span>
                     <Chip className='chip' label="Rust" />
-                    <Chip className='chip' label="Tauri 2.0" />
+                    <Chip className='chip' label="Tauri" />
                     <Chip className='chip' label="TailWind" />
                 </div>
             </div>
 
             <div className="project">
                 <a href="" target="_blank" rel="noreferrer"><img src={Blogleptos} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/Markcus0526/MarkTech.BlogLeptos.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>
+                <a href="https://github.com/Markcus0526/MarkTech.BlogLeptos.git" target="_blank" rel="noreferrer"><h2>Simple Blog Field</h2></a>
                 <p>This repository hosts a Leptos demo application developed as part of my exploration and experimentation with the Rust/Leptos framework.</p>
                 <div className="flex-chips">
                     <span className="chip-title">Tech stack:</span>
                     <Chip className='chip' label="Rust" />
-                    <Chip className='chip' label="Leptos 0.8" />
+                    <Chip className='chip' label="Leptos" />
                     <Chip className='chip' label="TailWind" />
                 </div>
             </div>
 
             <div className="project">
                 <a href="" target="_blank" rel="noreferrer"><img src={Dxaichat} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/Markcus0526/MarkTech.DxAiChat.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>
+                <a href="https://github.com/Markcus0526/MarkTech.DxAiChat.git" target="_blank" rel="noreferrer"><h2>Student Assist</h2></a>
                 <p>Student is a full-stack Rust web app that uses a "learning by teaching" model.
                     Users teach topics to an AI student, Bodhi, via text, PDF, or voice chat.
                     This monolithic application is built with Axum and Dioxus from a single codebase.
