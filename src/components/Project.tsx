@@ -69,7 +69,7 @@ function Project() {
 
             <div className="project">
                 <a href="http://www.3qcc.cn/" target="_blank" rel="noreferrer"><img src={Hospital} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/Markcus0526/IFETech.Hospital.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>
+                <a href="https://github.com/Markcus0526/ife-hospital-webrtc-web.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>
                 <p>This system is a peer-to-peer remote video system that enables real-time video communication between doctors and patients to provide medical treatment without the need for any separate software installation.
                     The system is based on WebRTC technology.</p>
                 <div className="flex-chips">
@@ -112,7 +112,7 @@ function Project() {
 
             <div className="project">
                 <a href="" target="_blank" rel="noreferrer"><img src={Bjcarpool} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/Markcus0526/DMYTech.BJCarPool.git" target="_blank" rel="noreferrer"><h2>Beijing Carpool</h2></a>
+                <a href="https://github.com/Markcus0526/dmy-carpooling-platform.git" target="_blank" rel="noreferrer"><h2>Beijing Carpool</h2></a>
                 <p>The system enables real-time information sharing between customers and drivers, facilitating multiple users to share taxis efficiently.
                     With this feature, customers can easily locate available taxis and drivers can efficiently serve more customers.
                     The system promotes a collaborative environment, which helps optimize taxi usage, minimize idle time, and reduce traffic congestion.
@@ -256,7 +256,7 @@ function Project() {
 
             <div className="project">
                 <a href="" target="_blank" rel="noreferrer"><img src={Appgo} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/Markcus0526/IFETech.AppGo.git" target="_blank" rel="noreferrer"><h2>AppGo</h2></a>
+                <a href="https://github.com/Markcus0526/ife-appgo-vpn.git" target="_blank" rel="noreferrer"><h2>AppGo</h2></a>
                 <p>AppGo allows users to browse any location using any device with fast speed due to its use of Proxy and Socks engines.
                     With this application, users can expect reliable and efficient internet access wherever they are.</p>
                 <div className="flex-chips">
