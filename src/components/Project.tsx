@@ -68,7 +68,7 @@ function Project() {
             </div>
 
             <div className="project">
-                <a href="http://www.3qcc.cn/" target="_blank" rel="noreferrer"><img src={Hospital} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="" target="_blank" rel="noreferrer"><img src={Hospital} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/Markcus0526/ife-hospital-webrtc-web.git" target="_blank" rel="noreferrer"><h2>Remote Diagnosis System</h2></a>
                 <p>This system is a peer-to-peer remote video system that enables real-time video communication between doctors and patients to provide medical treatment without the need for any separate software installation.
                     The system is based on WebRTC technology.</p>
